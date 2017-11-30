@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block header %}
+<link rel="stylesheet" href="{{ url_for('static', filename="css/index.css") }}" >
+{% endblock %}
+
+{% block content %}
+<form action="/weimier" method="post" enctype=multipart/form-data class=full_container>
+  <input type="file" name="pic" accept="image/*" class=input_choose>
+  <input type="submit" value="Upload" class=input_submit>
+</form>
+{% endblock %}

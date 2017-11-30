@@ -1,0 +1,26 @@
+.full_container
+{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    box-sizing: border-box;
+}
+
+.input_choose
+{
+    font-size:1em;
+    margin-top:20%;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+}
+
+.input_submit
+{
+    margin-bottom:20%;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+}
